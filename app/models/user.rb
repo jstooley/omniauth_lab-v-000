@@ -1,4 +1,4 @@
 class User
-  def destroy_all
+  def self.destroy_all
   end
 end
