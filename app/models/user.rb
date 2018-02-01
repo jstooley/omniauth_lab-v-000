@@ -1,5 +1,5 @@
 class User
   def self.destroy_all
-    self.delete
+    self.clear
   end
 end
