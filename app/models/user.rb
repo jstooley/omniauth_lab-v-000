@@ -1,6 +1,6 @@
 class User
   def self.destroy_all
-    self.all do |t|
+    self.all.delete
       t.delete
     end
   end
